@@ -14,8 +14,10 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Einar-Johan Hansen",
-            "email": "hello@einarhansen.dev"
+            "name": "Einar Hansen",
+            "email": "einar@einarhansen.dev",
+            "homepage": "https://einarhansen.dev",
+            "role": "Developer"
         }
     ],
     "require": {
