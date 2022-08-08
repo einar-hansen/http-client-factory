@@ -3,20 +3,19 @@
     "description": "Common interface for HTTP client factories",
     "keywords": [
         "einar",
-        "einar-johan",
+        "einar-hansen",
         "http",
         "http-client",
         "http-client-factory",
         "psr",
         "psr-18"
     ],
-    "homepage": "https://github.com/einarjhansen/http-client-factory",
+    "homepage": "https://github.com/einar-hansen/http-client-factory",
     "license": "MIT",
     "authors": [
         {
             "name": "Einar-Johan Hansen",
-            "email": "hello@einarhansen.dev",
-            "role": "Developer"
+            "email": "hello@einarhansen.dev"
         }
     ],
     "require": {
