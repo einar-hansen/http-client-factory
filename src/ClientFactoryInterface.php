@@ -22,6 +22,11 @@ interface ClientFactoryInterface
 
     public function addHeader(string $key, string $value): self;
 
+    /**
+     * Getter for headers to be used with each request.
+     *
+     * @return array<string, string>
+     */
     public function getHeaders(): array;
 
     public function create(): ClientInterface;
