@@ -8,6 +8,6 @@ Note that this is not a HTTP Client Factory implementation. For an example, chec
 The installable [package][package-url] and [dependents][implementation-url] are listed on Packagist.
 
 [psr-url]: https://www.php-fig.org/psr/psr-18
-[package-url]: https://packagist.org/packages/einar-johan/http-client-factory
-[guzzle-client-url]: https://packagist.org/packages/einar-johan/guzzle-client-factory
-[implementation-url]: https://packagist.org/packages/einar-johan/http-client-factory/dependents
+[package-url]: https://packagist.org/packages/einar-hansen/http-client-factory
+[guzzle-client-url]: https://packagist.org/packages/einar-hansen/guzzle-client-factory
+[implementation-url]: https://packagist.org/packages/einar-hansen/http-client-factory/dependents
