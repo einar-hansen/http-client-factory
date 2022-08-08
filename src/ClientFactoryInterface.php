@@ -11,7 +11,7 @@ interface ClientFactoryInterface
     public function __construct();
 
     /**
-     * Get the base url for each request.
+     * Create a new instance of the factory.
      */
     public static function new(): static;
 
