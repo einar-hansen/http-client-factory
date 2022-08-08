@@ -6,10 +6,17 @@ namespace EinarHansen\Http\Factories;
 
 interface ClientWithMiddlewareInterface
 {
+    /**
+     * Get the middlewares to be used with each request.
+     *
+     * @return array<callable>
+     */
     public function addMiddleware(callable $middleware): self;
 
     /**
-     * @return array<callable> An array of middleware
+     * Get the middlewares to be used with each request.
+     *
+     * @return array<callable>
      */
     public function getMiddlewares(): array;
 }
