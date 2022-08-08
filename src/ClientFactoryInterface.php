@@ -2,7 +2,7 @@
 
 declare(strict_type=1);
 
-namespace Einar\Http\Factories;
+namespace EinarHansen\Http\Factories;
 
 use Psr\Http\Client\ClientInterface;
 

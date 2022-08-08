@@ -1,5 +1,5 @@
 {
-    "name": "einar/http-client-factory",
+    "name": "einar-hansen/http-client-factory",
     "description": "Common interface for HTTP client factories",
     "keywords": [
         "einar",
@@ -32,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Einar\\Http\\Factories\\": "src"
+            "EinarHansen\\Http\\Factories\\": "src"
         }
     },
     "scripts": {
