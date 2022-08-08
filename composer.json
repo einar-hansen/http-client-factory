@@ -1,7 +1,8 @@
 {
-    "name": "einar-johan/http-client-factory",
+    "name": "einar/http-client-factory",
     "description": "Common interface for HTTP client factories",
     "keywords": [
+        "einar",
         "einar-johan",
         "http",
         "http-client",
@@ -9,12 +10,12 @@
         "psr",
         "psr-18"
     ],
-    "homepage": "https://github.com/einar-johan/http-client-factory",
+    "homepage": "https://github.com/einarjhansen/http-client-factory",
     "license": "MIT",
     "authors": [
         {
             "name": "Einar-Johan Hansen",
-            "email": "hello@einarhansen.io",
+            "email": "hello@einarhansen.dev",
             "role": "Developer"
         }
     ],
@@ -31,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EinarJohan\\Http\\Factories\\": "src"
+            "Einar\\Http\\Factories\\": "src"
         }
     },
     "scripts": {
