@@ -25,8 +25,8 @@ composer require einar-hansen/http-client-factory
 docker run --rm --interactive --tty --volume $(pwd):/app composer install
 
 # Run code style formatting and static analysis
-docker run -it -v $(pwd):/app  php:8.1-alpine /app/vendor/bin/pint /app
-docker run -it -v $(pwd):/app  php:8.1-alpine /app/vendor/bin/phpstan --level=9 analyse /app/src
+docker run -it -v $(pwd):/app -w /app php:8.1-alpine vendor/bin/pint
+docker run -it -v $(pwd):/app -w /app php:8.1-alpine vendor/bin/phpstan --level=9 analyse src
 ```
 
 ## License
